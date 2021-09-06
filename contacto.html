@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="container container--flex">
+            <div class="logo-container column column--50">
+                <h1 class="logo">Your Restaurant</h1>
+            </div>
+            <div class="main-header__contactInfo column column--50">
+                <div class="main-header__contactInfo__phone">
+                    <span class="icon icon-phone">888-333-333</span>
+                </div>
+                <div class="main-header__contactInfo__address">
+                    <span class="icon icon-location">Calle 45 # 43 - 100</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav class="main-nav">
+        <div class="container container--flex">
+            <span class="icon icon-menu" id="btnmenu"></span>
+            <ul class="menu" id="menu">
+                <li class="menu__item"><a href="index.html" class="menu__link ">Inicio</a></li>
+                <li class="menu__item"><a href="nosotros.html" class="menu__link">Nosotros</a></li>
+                <li class="menu__item"><a href="galeria.html" class="menu__link">Galeria</a></li>
+                <li class="menu__item"><a href="/" class="menu__link menu__link--select">Contacto</a></li>
+            </ul>
+            <div class="social-icon">
+                <a href="" class="social--icon__link"></a><span class="icon icon-facebook"></span>
+                <a href="" class="social--icon__link"></a><span class="icon icon-twitter"></span>
+                <a href="" class="social--icon__link"></a><span class="icon icon-mail"></span>
+            </div>
+        </div>
+    </nav>
+    <section class="banner">
+        <img src="img/contact.jpg" alt="" class="banner">
+        <div class="banner__content">Dejanos un mensaje</div>
+    </section>
+    <main class="main">
+        <section class="group contact">
+            <h2 class="group__title">Contactenos</h2>
+            <div class="container container--flex">
+                <div class="contact-information column column--50">
+                    <h3 class="column__title">Informacion de contacto</h3>
+                    <p class="column__txt">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus reiciendis consectetur, pariatur quam molestiae veniam, sequi a, qui odio eius facilis quidem dicta sed labore.</p>
+                    <p class="column__txt"><span class="icon icon-phone">Telefono 1: 3350935</span></p>
+                    <p class="column__txt"><span class="icon icon-phone">Telefono 2: 3022369184</span></p>
+                    <p class="column__txt"><span class="icon icon-location">Calle 54 # 43 - 34 Apto 2</span></p>
+                    <p class="column__txt"><span class="icon icon-mail">ingcesar8389@gmail.com</span></p>
+                    <div class="social-icon">
+                        <a href="" class="social--icon__link"></a><span class="icon icon-facebook"></span>
+                        <a href="" class="social--icon__link"></a><span class="icon icon-twitter"></span>
+                        <a href="" class="social--icon__link"></a><span class="icon icon-mail"></span>
+                    </div>
+                </div>
+                <form class="formulario column column--50" action="enviar.php" method="post">
+                    <label for="" class="formulario__label">Nombre:</label>
+                    <input type="text" name="nombre" class=" formulario__input-txt" placeholder="Nombre">
+                    <label for="" class="formulario__label">Correo:</label>
+                    <input type="text" name="correo" class=" formulario__input-txt" placeholder="Correo">
+                    <label for="" class="formulario__label">Telefono</label>
+                    <input type="text" name="telefono" class=" formulario__input-txt" placeholder="Telefono">
+                    <label for=" " class="formulario__label">Mensaje:</label>
+                    <textarea name="mensaje" id="" class="formulario__textarea" placeholder="Escribe un mensaje " required>
+                    </textarea>
+                    <input type="submit " class="btn formulario__btn " value="Enviar ">
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="main-footer ">
+        <div class="container container--flex ">
+            <div class="column column-33 ">
+                <h2 class="column__title ">¿Por qué visitarnos?</h2>
+                <p class="column__txt ">¿Por qué visitarnos?</p>
+            </div>
+            <div class="column column-33 ">
+                <h2 class="column__title ">Contactanos</h2>
+                <p class="column__txt ">Calle 54 # 43 -34 Apto 2</p>
+                <p class="column__txt ">Telefono:3022369184</p>
+                <p class="column__txt ">ingcesar8389@gmail.com</p>
+            </div>
+            <div class="column column-33 ">
+                <h2 class="column__title ">Siguenos en nuestras redes</h2>
+                <p class="column__txt "><a href=" ">Facebook</a></p>
+                <p class="column__txt "><a href=" ">Twiter</a></p>
+                <p class="column__txt "><a href=" ">Youtube</a></p>
+            </div>
+            <p class="copy ">Your Restaurant Todos los derechos reservados</p>
+        </div>
+    </footer>
+    <script src="js/menu.js "></script>
+</body>
+
+</html>
